@@ -67,4 +67,4 @@ Built by Uriyah Sam · All Rights Reserved
 
 🔗 **LinkedIn**: [https://www.linkedin.com/in/uriyahsam/](https://www.linkedin.com/in/uriyahsam/)
 
-📧 **Contact**: For inquiries or collaboration opportunities, please connect via LinkedIn.
+📧 **Contact**: For inquiries or collaboration opportunities, please connect via LinkedIn
