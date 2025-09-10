@@ -1,0 +1,47 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Processor</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Invoice Data Extractor</h1>
+        <p>Upload a PDF invoice to extract phone numbers and grand totals.</p>
+
+        <form id="upload-form">
+            <label for="file-input" class="custom-file-upload">
+                📄 <span id="file-label-text">Choose PDF</span>
+            </label>
+            <input type="file" id="file-input" accept=".pdf" required>
+            <button type="submit">Process Invoice</button>
+        </form>
+
+        <div id="status"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Built by <strong>Uriyah Sam</strong> · All Rights Reserved <br>
+            <a href="https://www.linkedin.com/in/uriyahsam/" target="_blank">🔗 LinkedIn</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
